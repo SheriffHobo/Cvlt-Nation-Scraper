@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="/">Mongo Scraper</a>
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" href="/">Cvlt Nation Scraper</a>
   <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false"
     aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -18,7 +18,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="btn btn-danger clear">CLEAR ARTICLES!</a>
+        <a class="btn clear">CLEAR ARTICLES!</a>
       </li>
     </ul>
   </div>
@@ -39,8 +39,8 @@
       <div class="card-header">
         <h3>
           <a class="article-link" target="_blank" rel="noopener noreferrer" href="{{this.url}}">{{this.headline}}</a>
-          <a class="btn btn-danger delete">Delete From Saved</a>
-          <a class="btn btn-info notes">Article Notes</a>
+          <a class="btn delete">Delete From Saved</a>
+          <a class="btn notes">Article Notes</a>
         </h3>
       </div>
       <div class="card-body">{{this.summary}}</div>
@@ -48,7 +48,7 @@
   {{/each}}
   {{#unless articles.length}}
     <div class="alert alert-warning text-center">
-      <h4>Uh Oh. Looks like we don't have any saved articles.</h4>
+      <h4>No new articles.</h4>
     </div>
     <div class="card">
       <div class="card-header text-center">
@@ -65,7 +65,7 @@
 
 <footer class="footer">
   <div class="container">
-    <p>New York Times Mongo Scraper</p>
+    <p>Cvlt Nation Scraper</p>
   </div>
 </footer>
 

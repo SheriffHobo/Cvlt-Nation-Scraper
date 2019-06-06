@@ -9,7 +9,7 @@ body {
 }
 
 .card a:not([href]):not([tabindex]).scrape-new {
-  color: #2196F3;
+  color: #676767;
 }
 
 .footer {
@@ -18,11 +18,15 @@ body {
   width: 100%;
   height: 80px;
   color: white;
-  background-color: #2196f3;
+  background-color: #676767;
 }
 
 .navbar {
   margin-bottom: 0;
+}
+
+.alert {
+  background: #676767;
 }
 
 .jumbotron {
@@ -47,7 +51,7 @@ body {
 
 .jumbotron .background-image {
   height: 100%;
-  background-image: url("../images/newspaper.jpg");
+  background-image: url("../images/cvltnation.jpg");
   background-size: cover;
 }
 
@@ -83,7 +87,7 @@ body {
 }
 
 .card .card-header {
-  background-color: #2196f3;
+  background-color: #676767;
   position: relative;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -123,7 +127,7 @@ body {
   padding-left: 10px;
   margin: 0;
   font-weight: 800;
-  background: #0c7cd5;
+  background:#676767;
 }
 
 .navbar-nav > li > a.scrape-new,
@@ -135,13 +139,17 @@ body {
   color: white;
 }
 
+.navbar {
+  background:#676767;
+}
+
 .navbar-nav > li > a.scrape-new:hover,
 .navbar-nav > li > a.clear:hover {
-  background: #4caf50;
+  background: #000000;
 }
 
 .navbar-nav > li > a.scrape-new:active {
-  background: #e51c23;
+  background: #000000;
 }
 
 .scrape-new {
@@ -166,4 +174,8 @@ textarea {
 .note.list-group-item .btn {
   position: relative;
   bottom: 10px;
+}
+
+.btn {
+  background: #000000;
 }
